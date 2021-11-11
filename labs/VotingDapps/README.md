@@ -69,3 +69,10 @@ Listening on 127.0.0.1:8545
 ```
 
 **take note that this is a server now running blockchain and listening on port 8545 of your local machine**
+
+# Connecting Remix
+
+1. Open the https://remix.ethereum.org
+2. Click on the **DEPLOY & RUN TRANSACTIONS** icon
+3. Then choose **Web 3 Provider**
+
