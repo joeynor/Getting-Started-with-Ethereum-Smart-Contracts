@@ -80,4 +80,56 @@ Listening on 127.0.0.1:8545
 
 # Writing your Voting Contract
 
+1. compile contract, get the Voting.sol
+2. use the command
+
+```
+node_modules/.bin/solc.js --abi --bin Voting.sol
+```
+
+3. Run node
+
+```
+node
+```
+
+4. enter these commands in node
+
+```
+bytecode = fs.readFileSync('./Voting_sol_Voting.bin').toString()
+
+abi = JSON.parse(fs.readFileSync('./Voting_sol_Voting.abi').toString())
+
+Web3 = require('web3')
+
+web3 = new Web3("http://localhost:8545")
+
+deployedContract = new web3.eth.Contract(abi)
+
+web3.eth.getAccounts(console.log) <- Should output 10 accounts
+
+listOfCandidates = ['Rama', 'Nick', 'Jose']
+```
+
+5. change the address to a valid wallet address
+
+```
+deployedContract.deploy({
+data: bytecode,
+arguments: [listOfCandidates.map(name => web3.utils.asciiToHex(name))]
+}).send({
+from: '0xE7D1Fb6c79d51372eCB69A16BDFb19820C568100',
+gas: 1500000,
+gasPrice: web3.utils.toWei('0.00003', 'ether')
+}).then((newContractInstance) => {
+try {
+	deployedContract.options.address = newContractInstance.options.address
+	console.log(newContractInstance.options.address)
+	} catch(err) {
+		next(err);
+}
+})
+
+deployedContract.options.address
+```
 
