@@ -150,3 +150,5 @@ deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({f
 
 // Now check again how many votes you have for Rama and others
 ```
+
+# Deploying it on the browser
