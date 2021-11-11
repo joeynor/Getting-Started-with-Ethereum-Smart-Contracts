@@ -2,7 +2,7 @@ Note: there is a problem with node 17, uninstall and install node14
 
 # Getting started with ganache-cli
 
-1. open your powershell terminal as administrator mode
+1. open your powershell terminal as administrator mode in windows or any shell in Linux/MAC
 2. run the command
 
 ```
@@ -10,12 +10,18 @@ npm install ganache-cli solc web3
 ```
 
 3. after installation, run the ganache cli
+If ur using windows:
 
 ```
 .\node_modules\.bin\ganache-cli.cmd
 ```
+or some Unix/Posix terminal:
 
-4. You should be seeing the following output
+```
+./node_modules/.bin/ganache-cli
+```
+
+4. You should be seeing the following an output that is similar to the one below
 
 ```
 Ganache CLI v6.12.2 (ganache-core: 2.13.2)
@@ -78,16 +84,24 @@ Listening on 127.0.0.1:8545
 4. You should see all the addresses and wallet address balances being updated on remix, and your server responding to these requests
 5. Technically now, you can deploy any smart contract on your own private ganache blockchain
 
-# Writing your Voting Contract
+# Compiling the Voting Contract
 
-1. compile contract, get the Voting.sol
-2. use the command
+1. compile contract, get the Voting.sol from this repository
+2. use the command 
+
+for windows:
 
 ```
-node_modules/.bin/solc.js --abi --bin Voting.sol
+./node_modules/.bin/solc.js --abi --bin Voting.sol
 ```
 
-3. Run node
+for linux/mac:
+
+```
+./node_modules/.bin/solc.js --abi --bin Voting.sol
+```
+
+3. Run node, with the command below to enter node shell
 
 ```
 node
@@ -95,25 +109,39 @@ node
 
 4. enter these commands in node
 
+Loading the compiled bytecode and abi file into node, 
 ```
 bytecode = fs.readFileSync('./Voting_sol_Voting.bin').toString()
 
 abi = JSON.parse(fs.readFileSync('./Voting_sol_Voting.abi').toString())
-
+```
+Importing the Web3 library and creating an instance 
+```
 Web3 = require('web3')
 
 web3 = new Web3("http://localhost:8545")
+```
 
+Preparing the deployed contract handler
+
+```
 deployedContract = new web3.eth.Contract(abi)
+```
 
-// Should output 10 accounts
+Checking what accounts we can use to deploy
+```
 web3.eth.getAccounts(console.log) 
+```
+*the command above should return a list of 10 wallet addresses*
 
+Creating a list of candidates
+```
 listOfCandidates = ['Rama', 'Nick', 'Jose']
 ```
 
-5. change the address to a valid wallet address
+5. Deploying the smart contract on the blockchain
 
+Make sure to change the from wallet address to one of your wallet address
 ```
 deployedContract.deploy({
 data: bytecode,
@@ -130,25 +158,36 @@ try {
 		next(err);
 }
 })
+```
+The command above, if successful, should return the contract address
 
-// issue this command if you forget your contract address
+Issue this command if you forget your contract address
+```
 deployedContract.options.address
 ```
+
 # Interacting with your deployed contract
 
+To interact with your contract, you can use the contract handler to call methods in the contract, lets call the **totalVotesFor** method
 ```
-// to interact with your contract
 deployedContract.methods.totalVotesFor(web3.utils.asciiToHex('Rama')).call().then((count) => console.log(count))
-
+```
+The command above should output the total votes received so far for the candidate 'Rama' as shown below. 
+```
 Output
 Promise { <pending> }
 > 0
-
-// Lets Vote for a Candidate
-deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({from: '0xE7D1Fb6c79d51372eCB69A16BDFb19820C568100'}).then((f) => console.log(f))
- 
-
-// Now check again how many votes you have for Rama and others
 ```
+Time to vote for a candidate
+```
+deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({from: '0xE7D1Fb6c79d51372eCB69A16BDFb19820C568100'}).then((f) => console.log(f))
+``` 
+Now check again how many votes you have for Rama or others you have voted for
 
 # Deploying it on the browser
+
+1. You will need 2 files, get index.html and index.js from this repository
+2. Edit the index.js to change the contract address and the abi file 
+3. Once done, open index.html on the browser
+
+Congratulations, you have just build you own decentralized app
