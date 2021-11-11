@@ -1,3 +1,16 @@
-https://solidity-by-example.org/0.6/hacks/self-destruct/
+Note: there is a problem with node 17, uninstall and install node14
 
-For examples using self-destruct and spdx license
+# Getting started with ganache-cli
+
+1. open your powershell terminal as administrator mode
+2. run the command
+
+```
+npm install ganache-cli solc web3
+```
+
+3. after installation, run the ganache cli
+
+```
+.\node_modules\.bin\ganache-cli.cmd
+```
