@@ -106,7 +106,8 @@ web3 = new Web3("http://localhost:8545")
 
 deployedContract = new web3.eth.Contract(abi)
 
-web3.eth.getAccounts(console.log) <- Should output 10 accounts
+// Should output 10 accounts
+web3.eth.getAccounts(console.log) 
 
 listOfCandidates = ['Rama', 'Nick', 'Jose']
 ```
