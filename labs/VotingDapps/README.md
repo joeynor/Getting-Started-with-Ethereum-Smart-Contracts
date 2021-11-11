@@ -131,6 +131,22 @@ try {
 }
 })
 
+// issue this command if you forget your contract address
 deployedContract.options.address
 ```
+# Interacting with your deployed contract
 
+```
+// to interact with your contract
+deployedContract.methods.totalVotesFor(web3.utils.asciiToHex('Rama')).call().then((count) => console.log(count))
+
+Output
+Promise { <pending> }
+> 0
+
+// Lets Vote for a Candidate
+deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({from: '0xE7D1Fb6c79d51372eCB69A16BDFb19820C568100'}).then((f) => console.log(f))
+ 
+
+// Now check again how many votes you have for Rama and others
+```
