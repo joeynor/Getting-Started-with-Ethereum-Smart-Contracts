@@ -75,4 +75,9 @@ Listening on 127.0.0.1:8545
 1. Open the https://remix.ethereum.org
 2. Click on the **DEPLOY & RUN TRANSACTIONS** icon
 3. Then choose **Web 3 Provider**
+4. You should see all the addresses and wallet address balances being updated on remix, and your server responding to these requests
+5. Technically now, you can deploy any smart contract on your own private ganache blockchain
+
+# Writing your Voting Contract
+
 
