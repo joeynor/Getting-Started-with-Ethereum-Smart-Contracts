@@ -3,7 +3,7 @@
 // Version of Solidity compiler this program was written for
 
 pragma solidity >=0.4.0 <0.8.11;
-// This line says the code will compile with version greater than 0.4 and less than 0.6
+// This line says the code will compile with version greater than 0.4 and less than 0.8.11
 
 contract Voting {
   // constructor to initialize candidates
