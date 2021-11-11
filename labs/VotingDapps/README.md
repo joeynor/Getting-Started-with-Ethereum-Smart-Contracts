@@ -184,7 +184,7 @@ deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({f
 ``` 
 Now check again how many votes you have for Rama or others you have voted for
 
-# Deploying it on the browser
+# Running it on the browser as a dApp
 
 1. You will need 2 files, get index.html and index.js from this repository
 2. Edit the index.js to change the contract address and the abi file 
