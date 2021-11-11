@@ -178,7 +178,7 @@ Output
 Promise { <pending> }
 > 0
 ```
-Time to vote for a candidate
+Time to vote for a candidate, run the command below, but make sure you change the from address to a valid wallet adderss
 ```
 deployedContract.methods.voteForCandidate(web3.utils.asciiToHex('Rama')).send({from: '0xE7D1Fb6c79d51372eCB69A16BDFb19820C568100'}).then((f) => console.log(f))
 ``` 
@@ -191,3 +191,5 @@ Now check again how many votes you have for Rama or others you have voted for
 3. Once done, open index.html on the browser
 
 Congratulations, you have just build you own decentralized app
+
+**note if you are trying to deploy the contract on remix, it requires an input during deployment. This is because the constructor expects and array of bytes32. Make sure to change input to hex and pad it with 0s to cater for that..
