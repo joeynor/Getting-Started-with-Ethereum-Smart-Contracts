@@ -92,7 +92,7 @@ Listening on 127.0.0.1:8545
 for windows:
 
 ```
-./node_modules/.bin/solc.js --abi --bin Voting.sol
+./node_modules/.bin/solcjs.cmd --abi --bin Voting.sol
 ```
 
 for linux/mac:
