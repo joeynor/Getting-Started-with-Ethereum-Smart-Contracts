@@ -98,7 +98,7 @@ for windows:
 for linux/mac:
 
 ```
-./node_modules/.bin/solc.js --abi --bin Voting.sol
+./node_modules/.bin/solcjs --abi --bin Voting.sol
 ```
 
 3. Run node, with the command below to enter node shell
