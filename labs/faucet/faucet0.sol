@@ -6,6 +6,8 @@ pragma solidity 0.6.4;
 // Our first contract is a faucet!
 contract Faucet {
 
+    address public me;
+
     constructor() public payable {
 		me = msg.sender;
 	}
