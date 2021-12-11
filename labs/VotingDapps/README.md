@@ -1,4 +1,7 @@
 Note: there is a problem with node 17, uninstall and install node14
+Installing ganache-cli is optional, you can also install ganache-ui which is the GUI version of ganache-cli. 
+Go to https://trufflesuite.com/ganache/ to download a copy and install and run quick start. 
+If you use ganache with the GUI version, you dont have to install and run ganache-cli.
 
 # Getting started with ganache-cli
 
