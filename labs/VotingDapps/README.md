@@ -6,7 +6,7 @@ If you use ganache with the GUI version, you dont have to install and run ganach
 # Getting started with ganache-cli
 
 1. open your powershell terminal as administrator mode in windows or any shell in Linux/MAC
-2. run the command
+2. run the command below to install ganache-cli solc and web3, if you are running ganache as a desktop application, do not include ganache-cli
 
 ```
 npm install ganache-cli solc web3
