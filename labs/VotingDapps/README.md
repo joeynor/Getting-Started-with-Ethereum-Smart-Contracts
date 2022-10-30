@@ -19,8 +19,8 @@ npm install --local solc web3
 
 ```
 
-3. after installation, run the ganache cli
-If ur using windows:
+3. after installation, run the ganache cli or ganache desktop app
+If ur using windows and ganache command line:
 
 ```
 .\node_modules\.bin\ganache-cli.cmd
