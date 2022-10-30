@@ -10,6 +10,13 @@ If you use ganache with the GUI version, you dont have to install and run ganach
 
 ```
 npm install ganache-cli solc web3
+
+## example for installing without ganache on global
+npm install solc web3 
+
+## example for installing without ganache on local
+npm install --local solc web3 
+
 ```
 
 3. after installation, run the ganache cli
