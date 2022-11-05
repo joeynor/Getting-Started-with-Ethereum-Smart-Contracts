@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2022-11-05T12:05:58.404Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" version="20.5.2" etag="LTU0l8goErtSyZPgoaLs" type="github"><diagram id="Sdu8ELv0HvtqqWyrbO-y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-05T12:27:16.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15" etag="gEwtTIzyFHTGCjplkXZW" version="20.5.2" type="github">
+  <diagram id="Sdu8ELv0HvtqqWyrbO-y" name="Page-1">
+    <mxGraphModel dx="1186" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-2" target="4udmDRNWZkHcBV4IHY6V-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-2" value="Halal Cert" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/cryptocurrency-blockchain-fintech-free/32/Cryptocurrency_digital_contract-128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="550" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-3" target="4udmDRNWZkHcBV4IHY6V-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/cryptocurrency-blockchain-fintech-free/32/Cryptocurrency_blockchain_data-37-128.png" vertex="1" parent="1">
+          <mxGeometry x="83" y="690" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-4" target="4udmDRNWZkHcBV4IHY6V-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-24" value="Web3/RPC calls" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="4udmDRNWZkHcBV4IHY6V-11">
+          <mxGeometry x="0.5599" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-4" target="4udmDRNWZkHcBV4IHY6V-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-41" value="JSON CERT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="4udmDRNWZkHcBV4IHY6V-39">
+          <mxGeometry x="-0.3842" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-4" value="Issuer - Running a Geth EVM compatible node" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/font-awesome/1792/institution-128.png" vertex="1" parent="1">
+          <mxGeometry x="290" y="300" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-7" target="4udmDRNWZkHcBV4IHY6V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-7" value="Halal DB" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="304.5" y="160" width="41" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-13" target="4udmDRNWZkHcBV4IHY6V-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/cryptocurrency-blockchain-fintech-free/32/Cryptocurrency_blockchain_data-37-128.png" vertex="1" parent="1">
+          <mxGeometry x="240" y="690" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/cryptocurrency-blockchain-fintech-free/32/Cryptocurrency_blockchain_data-37-128.png" vertex="1" parent="1">
+          <mxGeometry x="390" y="690" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;High Level Architecture&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="274" y="10" width="196" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=20;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-23" target="4udmDRNWZkHcBV4IHY6V-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-36" value="Compare IPFS Cert == SC Hash" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="4udmDRNWZkHcBV4IHY6V-27">
+          <mxGeometry x="0.0653" y="-2" relative="1" as="geometry">
+            <mxPoint x="14" y="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-23" value="Decentralized App&lt;br&gt;Verifier" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.desktop_and_app_streaming;" vertex="1" parent="1">
+          <mxGeometry x="740" y="292" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=20;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-25" target="4udmDRNWZkHcBV4IHY6V-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-25" value="IPFS node, for Verifier Code, Cert &#xa;and Rendering Schema" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="950" y="318" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="724" y="30" width="106" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/100-basic-for-user-interface/32/68-qr_code-128.png;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="759" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-30" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/humility-icons-MERGE/48x48/mimetypes/gnome-mime-application-x-x509-ca-cert.png;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=20;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-31" target="4udmDRNWZkHcBV4IHY6V-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-31" value="Halal Info" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="709" y="170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="4udmDRNWZkHcBV4IHY6V-33" target="4udmDRNWZkHcBV4IHY6V-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-35" value="Rest API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="4udmDRNWZkHcBV4IHY6V-34">
+          <mxGeometry x="-0.2804" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-33" value="Hadic AppServer" style="html=1;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.services;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;QR Containing&amp;nbsp;IPFS Addr, render JSON info into mobile device&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="849" y="90" width="241" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4udmDRNWZkHcBV4IHY6V-38" value="Cert Storage " style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="130" height="52" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
